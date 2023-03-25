@@ -14,7 +14,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 100px;
+      margin-top: 60px;
 }
 
 fieldset {
@@ -22,7 +22,7 @@ fieldset {
       justify-content: center;
       align-items: center;
       width: 600px;
-      height: 700px;
+      height: 800px;
 }
 
 form,
@@ -115,11 +115,28 @@ select {
       margin: 5px;
   }
 
-  .div_dados h3 {
+  .div_dados_main h3 {
+      font-size: 22px;
       position: relative;
-      left: 7px;
-      top: 30px;
+      left: 15px;
+      top: 50px;
   }
+
+  .div_dados {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      
+  }
+
+  .div_dados b{
+      font-size: 16px;
+      position: relative;
+      top: 66px;
+      left: 47px;
+      margin: 10px;
+  }
+
 
 
 ul li{
