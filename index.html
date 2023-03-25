@@ -17,18 +17,18 @@
             <fieldset>
                   <legend>CADASTRO DE ALUNO</legend>
 
-                  <form>
+                  <form id="id_form">
 
                         <ul>
                               <li><label for="">
                                     Matricula(número):
-                                    <input type="text" id="" />
+                                    <input type="text" id="Matricula" /> <!--Matricula-->
                                   </label></li>
 
-                                    <div class="Class_nome">
+                                    <div class="Class_nome"> <!--Nome-->
                                           <li class=""><label for="">
                                                 <span class="">Nome:</span>
-                                                <input class="" type="text" id="" />
+                                                <input class="" type="text" id="Nome" />
                                               </label></li>
                                     </div>
                                   
@@ -40,35 +40,36 @@
                                     <div class="Class_nome" id="Class_nome_radio">
                                           <label class="label_radio">
                                                 <span class="span_radio">turma: </span>
-                                            <input type="radio" name="opcoes" value="opcao1">
+                                            <input type="radio" name="opcoes" value="431">
                                             431
-                                            <input type="radio" name="opcoes" value="opcao1">
+                                            <input type="radio" name="opcoes" value="431">
                                             431
-                                            <input type="radio" name="opcoes" value="opcao1">
+                                            <input type="radio" name="opcoes" value="431">
                                             431
                                           </label>
-            
+                                          
+
                                           <label class="label_radio">
                                                 <span id="block_radio">turma: <br> </span>
-                                            <input type="radio" name="opcoes" value="opcao1">
+                                            <input type="radio" name="opcoes" value="431">
                                             431
-                                            <input type="radio" name="opcoes" value="opcao1">
+                                            <input type="radio" name="opcoes" value="431">
                                             431
-                                            <input type="radio" name="opcoes" value="opcao1">
+                                            <input type="radio" name="opcoes" value="431">
                                             431
                                           </label> 
                                     </div>
 
                               <ul>
                                     <li><label for="">
-                                          Matricula(número):
-                                          <input type="text" id="" />
+                                          Telefone(responsável): <!--Telefone-->
+                                          <input type="text" id="Telefone" />
                                         </label></li>
       
                                         <div class="Class_nome">
-                                          <li class=""><label for="">
-                                                <span class="">Nome:</span>
-                                                <input class="" type="text" id="" />
+                                          <li class=""><label for=""> <!--Endereço-->
+                                                <span class="">Endereço:</span>
+                                                <input class="" type="text" id="Endereço" />
                                               </label></li>
                                     </div>
 
@@ -85,8 +86,8 @@
                                     </li>
                                     
                                     <div class="Bnts">
-                                          <li><button>Cadastrar Aluno</button></li>
-                                          <li><button>Limpar Campo</button></li>  
+                                          <li><button id="bnt_cadastrar">Cadastrar Aluno</button></li>
+                                          <li><button id="bnt_clear_fild">Limpar Campo</button></li>  
                                     </div>
 
 
@@ -109,6 +110,10 @@
 
 
             </fieldset>
+      </div>
+
+      <div class="div_img">
+            <img src="imagem/Capturar_livro.PNG" alt="">
       </div>
 
       <script src="Script.js"></script>
