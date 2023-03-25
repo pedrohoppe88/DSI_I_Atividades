@@ -1,0 +1,130 @@
+* {
+      padding: 0;
+      margin: auto 0;
+}
+
+.Logo_cadastro {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+}
+
+.div_main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+}
+
+fieldset {
+      display: block;
+      justify-content: center;
+      align-items: center;
+      width: 600px;
+      height: 700px;
+}
+
+form,
+label {
+  display: block;
+  padding: 10px;
+}
+form {
+  width: 570px;
+  margin: 10px;
+  padding: 0px 10px;
+}
+
+form input {
+      margin-left: 10px;
+      width: 200px;
+      height: 20px;
+      border-radius: 5px;
+      border: solid 1px black;
+}
+
+label {
+  display: flex;
+  color: black;
+  text-align: left;
+  margin-top: 10px;
+}
+
+label ul {
+      list-style: none;
+    }
+    
+
+input {
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+
+}
+
+.Class_nome {
+      display: flex;
+      position: relative;
+      left: 85px;
+}
+
+#Class_nome_radio {
+      display: flex;
+      flex-direction: column;
+}
+
+
+.label_radio input{
+      margin-left: 10px;
+      width: 30px;
+      height: 20px;
+      border-radius: 5px;
+      border: solid 1px black;
+  }
+      
+#block_radio {
+      color: #fff;
+}
+
+.div_select {
+      display: flex;
+      justify-content: center;
+}
+
+select {
+      border: solid 2px black;
+      width: 204px;
+      height: 27px;
+      border-radius: 5px;
+      border: solid 1px black;
+  }
+
+  .Bnts {
+      display: flex;
+      justify-content: center;
+      margin-left: -50px;
+  }
+
+  .Bnts button {
+      width: 100px;
+      height: 22px;
+  }
+
+  .Bnts li{
+      margin: 5px;
+  }
+
+  .div_dados h3 {
+      position: relative;
+      left: 7px;
+      top: 30px;
+  }
+
+
+ul li{
+      list-style: none;
+}
+
+
+
