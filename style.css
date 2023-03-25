@@ -151,5 +151,13 @@ ul li{
       list-style: none;
 }
 
+.ValidaInputError {
+      border: solid 2px red;
+}
+
+.ValidaInput {
+      border: solid 2px rgb(11, 190, 11)
+}
+
 
 
