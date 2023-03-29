@@ -7,7 +7,13 @@ const Bnt_cadastra_aluno = document.getElementById('bnt_cadastrar');
 const LimparCampo = document.getElementById('bnt_clear_fild');
 const Form_ = document.querySelector('form');
 
+let nome = document.getElementById('Nome_info');
+let Matricula = document.getElementById('Matricula_info');
+let fone = document.getElementById('Telefone_info');
+let Endere = document.getElementById('Endereço_info');
 
+
+      // algoritmos simples, só para teste
 Bnt_cadastra_aluno.addEventListener('click', function(e) {
       e.preventDefault();
       let cont_verifica = 0;
@@ -19,6 +25,7 @@ Bnt_cadastra_aluno.addEventListener('click', function(e) {
             document.getElementById('Matricula').classList.add('ValidaInput');
             cont_verifica++;
       }
+
 
       if(inputNome.value == "") {
             document.getElementById('nome').classList.add('ValidaInputError');
@@ -46,6 +53,9 @@ Bnt_cadastra_aluno.addEventListener('click', function(e) {
 
       if(cont_verifica == 4) {
             alert('Tudo ok');
+            document.getElementById('Nome_info').innerHTML = 'Nome:' + ' ' + inputNome.value;
+            document.getElementById('Matricula_info').innerHTML = 'Matricula:' + ' ' + InputMatricula.value;
+            document.getElementById('Telefone_info').innerHTML = 'Telefone(responsável)::' + ' ' + Telefone.value;
+            document.getElementById('Endereço_info').innerHTML = 'Endereço::' + ' ' + Endere_.value;
       }
-
 });
